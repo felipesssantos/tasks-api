@@ -26,7 +26,7 @@ coverage/
 Thumbs.db
 
 # Terraform
-.terraform/
-*.tfstate
-*.tfstate.*
-*.tfvars
+#.terraform/
+#*.tfstate
+#*.tfstate.*
+#*.tfvars
