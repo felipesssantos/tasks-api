@@ -1,0 +1,33 @@
+{
+  "name": "todo-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "nodejs",
+    "fastify",
+    "aws",
+    "devops"
+  ],
+  "author": "Felipe Silva S. dos Santos",
+  "license": "ISC",
+  "description": "API de Tarefas",
+  "dependencies": {
+    "@fastify/cors": "^11.0.0",
+    "@fastify/jwt": "^9.0.4",
+    "@fastify/swagger": "^9.4.2",
+    "@fastify/swagger-ui": "^5.2.2",
+    "aws-sdk": "^2.1692.0",
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^16.4.7",
+    "fastify": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.9"
+  }
+}
